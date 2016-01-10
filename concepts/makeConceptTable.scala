@@ -30,7 +30,7 @@ object makeConceptTable {
       "https://sv.wikipedia.org/wiki/Klass_%28programmering%29",
       "https://en.wikipedia.org/wiki/Class_%28computer_programming%29"),
     Concept("attribut", "attribute", 
-      "Beskriver data i en klass. Mängden av attributvärden utgör ett objekts tillstånd. Kallas även (data)fält, datamedlem, egenskap.", 
+      "Beskriver en egenskap hos ett objekt. Kallas även (data)fält, (data)medlem.", 
       "https://sv.wikipedia.org/wiki/Objektorienterad_programmering#Attribut",
       "https://en.wikipedia.org/wiki/Class_%28computer_programming%29#Structure" )
   ).sortBy(_.sv)
